@@ -29,27 +29,6 @@
                 <TextBlock Background="Red" Grid.Row="2" Grid.Column="2"/>
             </Grid>
         </TabItem>
-        <TabItem Header="Dark Souls II" Width="100">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="22*"/>
-                    <RowDefinition Height="7*"/>
-                    <RowDefinition Height="71*"/>
-                </Grid.RowDefinitions>
-
-                <TextBlock Background="Red" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
-                <TextBlock Background="Orange" Grid.Row="0" Grid.Column="1"/>
-                <TextBlock Background="Yellow" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"/>
-                <TextBlock Background="Orange" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2"/>
-                <TextBlock Background="Orange" Grid.Row="1" Grid.Column="2"/>
-                <TextBlock Background="Red" Grid.Row="2" Grid.Column="2"/>
-            </Grid>
-        </TabItem>
         <TabItem Header="Dark Souls III" Width="100">
             <Grid>
                 <Grid.ColumnDefinitions>
