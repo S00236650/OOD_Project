@@ -49,8 +49,8 @@ namespace DataManagement
                     new List<string>() { "Fire, Bleed" },
                     20000, new List<string> () { "1 Humanity", "Demon's Catalyst" }, "Images/ds1/DemonFiresage");
                 Boss FourKings = new Boss("Four Kings", "Abyss", 9604,
-                   new List<string>() { "Fire", "Lightning" },
-                   60000, new List<string>() { "Bequeathed Lord Soul Shard", "4 Humanity" }, "Images/ds1/FourKings");
+                    new List<string>() { "Fire", "Lightning" },
+                    60000, new List<string>() { "Bequeathed Lord Soul Shard", "4 Humanity" }, "Images/ds1/FourKings");
                 Boss GapingDragon = new Boss("Gaping Dragon", "Depths", 4401,
                     new List<string>() { "Lightning" },
                     25000, new List<string>() { "Blighttown Key", "1 Twin Humanities", "1 Homeward Bone", "Demon King Greataxe" }, "Images/ds1/GapingDragon");
@@ -75,6 +75,21 @@ namespace DataManagement
                 Boss Smough = new Boss("Executioner Smough", "Anor Londo", 4094,
                     new List<string>() { "Fire", "Bleed", "Lightning" },
                     50000, new List<string>() { "Soul of Smough" }, "Images/ds1/ExecutionerSmough");
+                Boss Pinwheel = new Boss("Pinwheel", "The Catacombs", 1326,
+                    new List<string>() { "Fire", "Lightning", "Magic" },
+                    15000, new List<string>() { "Rite of Kindling", "1 Humanity", "Mask of the Father", "Mask of the Mother", "Mask of the Child" }, "Images/ds1/Pinwheel");
+                Boss Seath = new Boss("Seath the Scaleless", "Crystal Cave", 5525,
+                    new List<string>() { "Fire", "Lightning" },
+                    60000, new List<string>() { "Bequeathed Lord Soul Shard", "1 Humanity", "Moonlight Greatsword" }, "Images/ds1/SeaththeScaleless");
+                Boss StrayDemon = new Boss("Stray Demon", "Undead Asylum", 5250,
+                    new List<string>() { "Bleed" },
+                    20000, new List<string>() { "Titanite Slab", "1 Humanity", "1 Homeward Bone" }, "Images/ds1/Stray Demon");
+                Boss TaurusDemon = new Boss("Taurus Demon", "Undead Burg", 1215,
+                    new List<string>() { "Lightning" },
+                    3000, new List<string>() { "1 Humanity", "1 Homeward Bone", "Demon's Greataxe" }, "Images/ds1/TaurusDemon");
+                Boss BedOfChaos = new Boss("The Bed of Chaos", "Lost Izalith", 2,
+                    new List<string>() { "None" },
+                    60000, new List<string>() { "Lord's Soul", "1 Humanity" }, "Images/ds1/TheBedofChaos");
 
 
                 // Add to DB and save
