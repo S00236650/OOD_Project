@@ -29,8 +29,9 @@ namespace OOD_Project
         public List<string> Weaknesses { get; set; }
         public int Souls { get; set; }
         public List<string> Drops { get; set; }
+        public string ImageSource { get; set; }
 
-        public Boss(string bossName, string location, int health, List<string> weaknesses, int souls, List<string> drops)
+        public Boss(string bossName, string location, int health, List<string> weaknesses, int souls, List<string> drops, string imageSource)
         {
             BossName = bossName;
             Location = location;
@@ -38,6 +39,7 @@ namespace OOD_Project
             Weaknesses = weaknesses;
             Souls = souls;
             Drops = drops;
+            ImageSource = imageSource;
         }
     }
 
