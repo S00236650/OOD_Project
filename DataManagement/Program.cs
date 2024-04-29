@@ -21,6 +21,7 @@ namespace DataManagement
                 Game ds3 = new Game("Dark Souls III");
 
                 // Create Bosses
+                // Dark Souls 1
                 Boss AsylumDemon = new Boss("Asylum Demon", "Undead Asylum", 825,
                     new List<string>() { "Fire", "Bleed" },
                     2000, new List<string>() { "Big Pilgrim's Key", "1 Humanity", "Demon's Great Hammer" }, "Images/ds1/AsylumDemon");
@@ -90,6 +91,20 @@ namespace DataManagement
                 Boss BedOfChaos = new Boss("The Bed of Chaos", "Lost Izalith", 2,
                     new List<string>() { "None" },
                     60000, new List<string>() { "Lord's Soul", "1 Humanity" }, "Images/ds1/TheBedofChaos");
+                Boss Artorias = new Boss("Knight Artorias the Abysswalker", "Royal Wood", 3750,
+                    new List<string>() { "None" },
+                    50000, new List<string>() { "Soul of Artorias" }, "Images/ds1/KnightArtoriastheAbysswalker");
+                Boss Kalameet = new Boss("Black Dragon Kalameet", "Royal Woods", 5400,
+                    new List<string>() { "Bleed" },
+                    60000, new List<string> { "Calamity Ring", "Obsidian Greatsword" }, "Images/ds1/BlackDragonKalameet");
+                Boss Manus = new Boss("Manus, Father of the Abyss", "Chasm of the Abyss", 6665,
+                    new List<string>() { "None" },
+                    60000, new List<string>() { "Soul of Manus", "10 Humanity" }, "Images/ds1/ManusFatheroftheAbyss");
+                Boss SanctuaryGuardian = new Boss("Sanctuary Guardian", "Sanctuary Garden", 2560,
+                    new List<string>() { "Bleed" },
+                    30000, new List<string>() { "Guardian Soul", "1 Humanity", "Guardian Tail" }, "Images/ds1/SanctuaryGuardian");
+
+                // Dark Souls 3
 
 
                 // Add to DB and save

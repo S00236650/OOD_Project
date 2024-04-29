@@ -106,7 +106,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\ds1\KnightArtoriastheAbysswalker.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\ds1\AsylumDemon.jpg" />
     <Resource Include="Images\ds1\BellGargoyle.jpg" />
@@ -131,6 +133,15 @@
     <Resource Include="Images\ds1\StrayDemon.jpg" />
     <Resource Include="Images\ds1\TaurusDemon.jpg" />
     <Resource Include="Images\ds1\TheBedofChaos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ds1\BlackDragonKalameet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ds1\SanctuaryGuardian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ds1\ManusFatheroftheAbyss.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
