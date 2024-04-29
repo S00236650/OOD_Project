@@ -143,6 +143,33 @@
   <ItemGroup>
     <Resource Include="Images\ds1\ManusFatheroftheAbyss.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ds3\AbyssWatchers.png" />
+    <Resource Include="Images\ds3\AldrichDevourerofGods.png" />
+    <Resource Include="Images\ds3\AncientWyvern.png" />
+    <Resource Include="Images\ds3\ChampionGundyr.png" />
+    <Resource Include="Images\ds3\CrystalSage.png" />
+    <Resource Include="Images\ds3\CurseRottedGreatwood.png" />
+    <Resource Include="Images\ds3\DanceroftheBorealValley.png" />
+    <Resource Include="Images\ds3\DarkeaterMidir.jpeg" />
+    <Resource Include="Images\ds3\DeaconsoftheDeep.png" />
+    <Resource Include="Images\ds3\DemonPrince.jpg" />
+    <Resource Include="Images\ds3\DragonslayerArmour.png" />
+    <Resource Include="Images\ds3\Gravetender.jpg" />
+    <Resource Include="Images\ds3\HalflightSpearoftheChurch.jpg" />
+    <Resource Include="Images\ds3\HighLordWolnir.png" />
+    <Resource Include="Images\ds3\IudexGundyr.png" />
+    <Resource Include="Images\ds3\LothricYoungerPrince.png" />
+    <Resource Include="Images\ds3\NamelessKing.png" />
+    <Resource Include="Images\ds3\OceirostheConsumedKing.png" />
+    <Resource Include="Images\ds3\OldDemonKing.png" />
+    <Resource Include="Images\ds3\PontiffSulyvahn.png" />
+    <Resource Include="Images\ds3\SisterFriede.jpg" />
+    <Resource Include="Images\ds3\SlaveKnightGael.jpeg" />
+    <Resource Include="Images\ds3\SoulofCinder.jpg" />
+    <Resource Include="Images\ds3\VordtoftheBorealValley.png" />
+    <Resource Include="Images\ds3\YhormtheGiant.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
