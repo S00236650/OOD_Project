@@ -14,7 +14,7 @@ namespace DataManagement
             // Create DB model
             GameData db = new GameData("DarkSoulsGames");
 
-            using(db)
+            using (db)
             {
                 // Create Games
                 Game ds1 = new Game("Dark Souls");
@@ -48,7 +48,7 @@ namespace DataManagement
                     40000, new List<string>() { "Soul of Gwyndolin" }, "Images/ds1/DarkSunGwyndolin");
                 Boss DemonFiresage = new Boss("Demon Firesage", "Demon Ruins", 5950,
                     new List<string>() { "Fire, Bleed" },
-                    20000, new List<string> () { "1 Humanity", "Demon's Catalyst" }, "Images/ds1/DemonFiresage");
+                    20000, new List<string>() { "1 Humanity", "Demon's Catalyst" }, "Images/ds1/DemonFiresage");
                 Boss FourKings = new Boss("Four Kings", "Abyss", 9604,
                     new List<string>() { "Fire", "Lightning" },
                     60000, new List<string>() { "Bequeathed Lord Soul Shard", "4 Humanity" }, "Images/ds1/FourKings");
@@ -105,6 +105,54 @@ namespace DataManagement
                     30000, new List<string>() { "Guardian Soul", "1 Humanity", "Guardian Tail" }, "Images/ds1/SanctuaryGuardian");
 
                 // Dark Souls 3
+                Boss IudexGundyr = new Boss("Iudex Gundyr", "Cemetery of Ash", 1037,
+                    new List<string>() { "Lightning", "Bleed", "Frostbite" },
+                    3000, new List<string>() { "Coiled Sword" }, "Images/ds3/IudexGundyr");
+                Boss Vordt = new Boss("Vordt of the Boreal Valley", "High Wall of Lothric", 1328,
+                    new List<string>() { "Dark" },
+                    3000, new List<string>() { "Soul of Boreal Valley Vordt" }, "Images/ds3/VordtoftheBorealValley");
+                Boss Greatwood = new Boss("Curse-Rotted Greatwood", "Undead Settlement", 5405,
+                    new List<string>() { "Fire" },
+                    7000, new List<string>() { "Transposing Kiln", "Soul of the Rotted Greatwood" }, "Images/ds3/CurseRottedGreatwood");
+                Boss CrystalSage = new Boss("Crystal Sage", "Road of Sacrifices", 2723,
+                    new List<string>() { "Lightning", "Dark", "Fire", "Poison", "Toxic", "Frosy" },
+                    8000, new List<string>() { "Soul of a Crystal Sage" }, "Images/ds3/CrystalSage");
+                Boss AbyssWatchers = new Boss("Abyss Watchers", "Farron Keep", 1548,
+                    new List<string>() { "Lightning" },
+                    18000, new List<string>() { "Soul of the Blood of the Wolf", "Cinders of a Lord" }, "Images/ds3/AbyssWatchers");
+                Boss Deacons = new Boss("Deacons of the Deep", "Cathederal of the Deep", 4099,
+                    new List<string>() { "Frostbite" },
+                    13000, new List<string>() { "Soul of the Deacons of the Deep", "Small Doll Archdeacon Set" }, "Images/ds3/DeaconsoftheDeep");
+                Boss Wolnir = new Boss("High Lord Wolnir", "Catacombs of Carthus", 15041,
+                    new List<string>() { "None" },
+                    22000, new List<string>() { "Soul of High Lord Wolnyr" }, "Images/ds3/HighLordWolnir");
+                Boss OldDemonKing = new Boss("Old Demon King", "Smouldering Lake", 5301,
+                    new List<string>() { "Dark" },
+                    25000, new List<string>() { "Soul of the Old Demon King" }, "Images/ds3/OldDemonKing");
+                Boss Pontiff = new Boss("Pontiff Sulyvahn", "Irithyll of the Boreal Valley", 5106,
+                    new List<string>() { "Fire", "Lightning", "Dark" },
+                    28000, new List<string>() { "Soul of Pontiff Sulyvahn" }, "Images/ds3/PontiffSulyvahn");
+                Boss Yhorm = new Boss("Yhorm the Giant", "Profaned Capital", 27822,
+                    new List<string>() { "Lightning", "Dark" },
+                    36000, new List<string>() { "Soul of Thorm the Giant", "Cinders of a Lord" }, "Images/ds3/YhormtheGiant");
+                Boss Aldrich = new Boss("Aldrich, Devourer of Gods", "Anor Londo", 4727,
+                    new List<string>() { "Lightning", "Fire" },
+                    50000, new List<string>() { "Soul of Aldrich", "Cinders of a Lord" }, "Images/ds3/AldrichDevourerofGods");
+                Boss Dancer = new Boss("Dancer of the Boreal Valley", "High Wall of Lothric", 5111,
+                    new List<string>() { "Dark" },
+                    60000, new List<string>() { "Soul of the Dancer" }, "Images/ds3/DanceroftheBorealValley");
+                Boss DragonslayerArmour = new Boss("Dragonslayer Armour", "Lothric Castle", 4581,
+                    new List<string>() { "Frost" },
+                    48000, new List<string>() { "Soul of the Dragonslayer Armour" }, "Images/ds3/DragonslayerArmour");
+                Boss Oceiros = new Boss("Oceiros, the Consumed King", "Consumed King's Garden", 8087,
+                    new List<string>() { "Lightning", "Frost" },
+                    58000, new List<string>() { "Soul of Consumed Oceiros" }, "Images/ds3/OceirostheConsumedKing");
+                Boss ChampionGundyr = new Boss("Champion Gundyr", "Untended Graves", 4956,
+                    new List<string>() { "Lightning", "Frost", "Bleed" },
+                    60000, new List<string>() { "Soul of Champion Gundyr" }, "Images/ds3/ChampionGundyr");
+                Boss Lothric = new Boss("Lothric, Younger Prince", "Grand Archives", 13529,
+                    new List<string>() { "Lightning", "Frost", "Magic" },
+                    85000, new List<string>() { "Soul of the Twin Princes", "Cinders of a Lord" }, "Images/ds3/LothricYoungerPrince");
 
 
                 // Add to DB and save
