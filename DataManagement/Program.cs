@@ -21,7 +21,7 @@ namespace DataManagement
                 Game ds3 = new Game("Dark Souls III");
 
                 // Create Bosses
-                // Dark Souls 1
+                    // Dark Souls 1
                 Boss AsylumDemon = new Boss("Asylum Demon", "Undead Asylum", 825,
                     new List<string>() { "Fire", "Bleed" },
                     2000, new List<string>() { "Big Pilgrim's Key", "1 Humanity", "Demon's Great Hammer" }, "Images/ds1/AsylumDemon.jpg");
@@ -104,7 +104,7 @@ namespace DataManagement
                     new List<string>() { "Bleed" },
                     30000, new List<string>() { "Guardian Soul", "1 Humanity", "Guardian Tail" }, "Images/ds1/SanctuaryGuardian.jpg");
 
-                // Dark Souls 3
+                    // Dark Souls 3
                 Boss IudexGundyr = new Boss("Iudex Gundyr", "Cemetery of Ash", 1037,
                     new List<string>() { "Lightning", "Bleed", "Frostbite" },
                     3000, new List<string>() { "Coiled Sword" }, "Images/ds3/IudexGundyr.png");
@@ -181,8 +181,65 @@ namespace DataManagement
                     new List<string>() { "Frostbite", "Poison", "Toxic" },
                     120000, new List<string>() { "Soul of Slave Knight Gael", "Blood of the Dark Soul" }, "Images/ds3/SlaveKnightGael.jpeg");
 
-                // Add to DB and save
+                // Add to DB
+                    // Dark souls 1
+                ds1.Bosses.Add(AsylumDemon);
+                ds1.Bosses.Add(TaurusDemon);
+                ds1.Bosses.Add(BellGargoyles);
+                ds1.Bosses.Add(MoonlightButterfly);
+                ds1.Bosses.Add(CapraDemon);
+                ds1.Bosses.Add(GapingDragon);
+                ds1.Bosses.Add(Quelaag);
+                ds1.Bosses.Add(StrayDemon);
+                ds1.Bosses.Add(IronGolem);
+                ds1.Bosses.Add(Ornstein);
+                ds1.Bosses.Add(Smough);
+                ds1.Bosses.Add(Priscilla);
+                ds1.Bosses.Add(CeaselessDischarge);
+                ds1.Bosses.Add(DemonFiresage);
+                ds1.Bosses.Add(CentipedeDemon);
+                ds1.Bosses.Add(BedOfChaos);
+                ds1.Bosses.Add(Sif);
+                ds1.Bosses.Add(FourKings);
+                ds1.Bosses.Add(Seath);
+                ds1.Bosses.Add(Gwyndolin);
+                ds1.Bosses.Add(Pinwheel);
+                ds1.Bosses.Add(Nito);
+                ds1.Bosses.Add(Gwyn);
+                ds1.Bosses.Add(SanctuaryGuardian);
+                ds1.Bosses.Add(Artorias);
+                ds1.Bosses.Add(Kalameet);
+                ds1.Bosses.Add(Manus);
 
+                    // Dark Souls 3
+                ds3.Bosses.Add(IudexGundyr);
+                ds3.Bosses.Add(Vordt);
+                ds3.Bosses.Add(Greatwood);
+                ds3.Bosses.Add(CrystalSage);
+                ds3.Bosses.Add(AbyssWatchers);
+                ds3.Bosses.Add(Deacons);
+                ds3.Bosses.Add(Wolnir);
+                ds3.Bosses.Add(OldDemonKing);
+                ds3.Bosses.Add(Pontiff);
+                ds3.Bosses.Add(Yhorm);
+                ds3.Bosses.Add(Aldrich);
+                ds3.Bosses.Add(Dancer);
+                ds3.Bosses.Add(DragonslayerArmour);
+                ds3.Bosses.Add(Oceiros);
+                ds3.Bosses.Add(ChampionGundyr);
+                ds3.Bosses.Add(Lothric);
+                ds3.Bosses.Add(AncientWyvern);
+                ds3.Bosses.Add(NamelessKing);
+                ds3.Bosses.Add(SoulOfCinder);
+                ds3.Bosses.Add(Gravetender);
+                ds3.Bosses.Add(SisterFriede);
+                ds3.Bosses.Add(DemonPrince);
+                ds3.Bosses.Add(Halflight);
+                ds3.Bosses.Add(Midir);
+                ds3.Bosses.Add(Gael);
+
+                // Save to DB
+                db.SaveChanges();
             }
         }
     }
