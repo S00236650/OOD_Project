@@ -41,6 +41,8 @@ namespace OOD_Project
             Drops = drops;
             ImageSource = imageSource;
         }
+
+        public Boss() { }
     }
 
     public class GameData : DbContext

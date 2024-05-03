@@ -58,9 +58,9 @@ namespace DataManagement
                 Boss Sif = new Boss("Great Greywolf Sif", "Darkroot Garden", 3432,
                     new List<string>() { "Fire" },
                     40000, new List<string>() { "Soul of Sif", "Covenant of Artorias", "1 Humanity", "1 Homeward Bone" }, "Images/ds1/GreatGreywolfSif.jpg");
-                Boss Gwyn = new Boss("Gwyn, Lord of Cynder", "Kiln of the First Flame", 4250,
+                Boss Gwyn = new Boss("Gwyn, Lord of Cinder", "Kiln of the First Flame", 4250,
                     new List<string>() { "Fire" },
-                    70000, new List<string>() { "Soul of Gwyn, Lord of Cinder" }, "Images/ds1/GwynLordofCynder.jpg");
+                    70000, new List<string>() { "Soul of Gwyn, Lord of Cinder" }, "Images/ds1/GwynLordofCinder.jpg");
                 Boss IronGolem = new Boss("Iron Golem", "Sen's Fortress", 2880,
                     new List<string>() { "None" },
                     40000, new List<string>() { "Core of an Iron Golem", "1 Humanity" }, "Images/ds1/IronGolem.jpg");
@@ -84,7 +84,7 @@ namespace DataManagement
                     60000, new List<string>() { "Bequeathed Lord Soul Shard", "1 Humanity", "Moonlight Greatsword" }, "Images/ds1/SeaththeScaleless.jpg");
                 Boss StrayDemon = new Boss("Stray Demon", "Undead Asylum", 5250,
                     new List<string>() { "Bleed" },
-                    20000, new List<string>() { "Titanite Slab", "1 Humanity", "1 Homeward Bone" }, "Images/ds1/Stray Demon.jpg");
+                    20000, new List<string>() { "Titanite Slab", "1 Humanity", "1 Homeward Bone" }, "Images/ds1/StrayDemon.jpg");
                 Boss TaurusDemon = new Boss("Taurus Demon", "Undead Burg", 1215,
                     new List<string>() { "Lightning" },
                     3000, new List<string>() { "1 Humanity", "1 Homeward Bone", "Demon's Greataxe" }, "Images/ds1/TaurusDemon.jpg");
