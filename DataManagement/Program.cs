@@ -14,7 +14,7 @@ namespace DataManagement
             // Create DB model
             GameData db = new GameData("DarkSoulsGames");
 
-            using (db)
+            using(db)
             {
                 // Create Games
                 Game ds1 = new Game("Dark Souls");
@@ -237,6 +237,9 @@ namespace DataManagement
                 ds3.Bosses.Add(Halflight);
                 ds3.Bosses.Add(Midir);
                 ds3.Bosses.Add(Gael);
+
+                db.Games.Add(ds1);
+                db.Games.Add(ds3);
 
                 // Save to DB
                 db.SaveChanges();

@@ -24,5 +24,17 @@ namespace OOD_Project
         {
             InitializeComponent();
         }
+
+
+
+        private void lbxDs3Bosses_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void lbxDs1Bosses_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

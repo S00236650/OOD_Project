@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{97EA406C-6AED-483B-87AE-E1628E7BF439}</ProjectGuid>
+    <ProjectGuid>{7E04CAAE-383D-4AF9-A252-4B9DAFA7026C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>DataManagement</RootNamespace>
     <AssemblyName>DataManagement</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>

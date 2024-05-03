@@ -21,12 +21,15 @@
                     <RowDefinition Height="71*"/>
                 </Grid.RowDefinitions>
 
-                <TextBlock Background="Red" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
-                <TextBlock Background="Orange" Grid.Row="0" Grid.Column="1"/>
-                <TextBlock Background="Yellow" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"/>
-                <TextBlock Background="Orange" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2"/>
-                <TextBlock Background="Orange" Grid.Row="1" Grid.Column="2"/>
-                <TextBlock Background="Red" Grid.Row="2" Grid.Column="2"/>
+                <Image Source="/Images/ds1background.jpg" Grid.ColumnSpan="3" Grid.RowSpan="3" Stretch="UniformToFill"/>
+                <Image Source="/Images/ds1logo.png" Grid.Row="0" Grid.Column="1" Stretch="UniformToFill"/>
+                <TextBlock x:Name="tblkDs1BossName" Text="Boss Name" Grid.Row="1" Grid.Column="2" FontFamily="Felix Titling" FontSize="18" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <ListBox x:Name="lbxDs1Bosses" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Margin="15" SelectionChanged="lbxDs1Bosses_SelectionChanged"/>
+                <TextBlock x:Name="tblkDs1Stats" Text="" Background="White" Grid.Row="2" Grid.Column="2" Margin="15"/>
+                <Image x:Name="imgDs1BossImage" Source="/Images/ds1/AsylumDemon.jpg" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" />
+
+
+
             </Grid>
         </TabItem>
         <TabItem Header="Dark Souls III" Width="100">
@@ -42,12 +45,12 @@
                     <RowDefinition Height="71*"/>
                 </Grid.RowDefinitions>
 
-                <TextBlock Background="Red" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
-                <TextBlock Background="Orange" Grid.Row="0" Grid.Column="1"/>
-                <TextBlock Background="Yellow" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"/>
-                <TextBlock Background="Orange" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2"/>
-                <TextBlock Background="Orange" Grid.Row="1" Grid.Column="2"/>
-                <TextBlock Background="Red" Grid.Row="2" Grid.Column="2"/>
+                <Image Source="/Images/ds3background.jpg" Grid.ColumnSpan="3" Grid.RowSpan="3" Stretch="UniformToFill"/>
+                <Image Source="/Images/ds3logo.png" Grid.Row="0" Grid.Column="1" Stretch="Uniform"/>
+                <TextBlock x:Name="tblkDs3BossName" Text="Boss Name" Grid.Row="1" Grid.Column="2" FontFamily="Felix Titling" FontSize="18" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <ListBox x:Name="lbxDs3Bosses" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Margin="15" SelectionChanged="lbxDs3Bosses_SelectionChanged"/>
+                <TextBlock x:Name="tblkDs3Stats" Text="" Background="White" Grid.Row="2" Grid.Column="2" Margin="15"/>
+                <Image x:Name="imgDs3BossImage" Source="/Images/ds1/AsylumDemon.jpg" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" />
             </Grid>
         </TabItem>
     </TabControl>
