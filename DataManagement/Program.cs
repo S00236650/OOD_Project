@@ -115,7 +115,7 @@ namespace DataManagement
                     new List<string>() { "Fire" },
                     7000, new List<string>() { "Transposing Kiln", "Soul of the Rotted Greatwood" }, "Images/ds3/CurseRottedGreatwood.png");
                 Boss CrystalSage = new Boss("Crystal Sage", "Road of Sacrifices", 2723,
-                    new List<string>() { "Lightning", "Dark", "Fire", "Poison", "Toxic", "Frosy" },
+                    new List<string>() { "Lightning", "Dark", "Fire", "Poison", "Toxic", "Frost" },
                     8000, new List<string>() { "Soul of a Crystal Sage" }, "Images/ds3/CrystalSage.png");
                 Boss AbyssWatchers = new Boss("Abyss Watchers", "Farron Keep", 1548,
                     new List<string>() { "Lightning" },

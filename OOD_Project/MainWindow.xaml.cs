@@ -70,20 +70,33 @@ namespace OOD_Project
 
         public string ConvertStatsToString(Boss b)
         {
-            string weaknesses = "";
-            string drops = "";
+            string weaknesses = b.Weakness1;
+            string drops = b.Drop1;
 
-            if(b.Weaknesses != null)
-                foreach (string w in b.Weaknesses)
-                    weaknesses += (w + "\n");
-            if(b.Drops != null)
-                foreach (string d in b.Drops)
-                    drops += (d + "\n");
+            if (b.Weakness2 != null)
+                weaknesses += ("\n" + b.Weakness2);
+            if (b.Weakness3 != null)
+                weaknesses += ("\n" + b.Weakness3);
+            if (b.Weakness4 != null)
+                weaknesses += ("\n" + b.Weakness4);
+            if (b.Weakness5 != null)
+                weaknesses += ("\n" + b.Weakness5);
+            if (b.Weakness6 != null)
+                weaknesses += ("\n" + b.Weakness6);
+
+            if (b.Drop2 != null)
+                drops += ("\n" + b.Drop2);
+            if (b.Drop3 != null)
+                drops += ("\n" + b.Drop3);
+            if (b.Drop4 != null)
+                drops += ("\n" + b.Drop4);
+            if (b.Drop5 != null)
+                drops += ("\n" + b.Drop5);
 
             return "Location: " + b.Location + "\n\n" +
                 "Health: " + b.Health.ToString() + "\n\n" +
                 "Souls: " + b.Souls + "\n\n" +
-                "Drops: " + drops + "\n" +
+                "Drops: " + drops + "\n\n" +
                 "Weaknesses: " + weaknesses;
         }
 
